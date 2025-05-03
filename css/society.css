@@ -1,0 +1,70 @@
+/* body{
+    background-image: url(./img/纯色2粉.jpg); 
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.society{
+    display: flex;
+    width: 600px;
+    /* background-color: rgba(215, 28, 28, 0); */
+    padding: 10px -10px;
+    margin: 10px 0px 0px -10px;
+
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    /* backdrop-filter: blur(7px); */
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.society ul{
+    display: flex;
+    padding: 0px;
+}
+
+.society ul li{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 1.5em;
+    padding-right: 20px;
+}
+
+.society ul li .society-block{
+    display: flex;
+    height: 50px;
+    width: 39px;
+    background-color: rgba(215, 28, 28, 0);
+    border-radius: 50px;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.044);
+    align-items: center;
+    padding-left: 11px;
+    overflow: hidden;
+    transition: all 0.2s ease-out;
+}
+
+.society ul li span{
+    font-size: 17px;
+    padding-left: 10px;
+
+    
+}
+.society ul li a{
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    line-height: 50px;
+
+}
+
+.society ul li .society-block:hover{
+    width: 110px;
+}
+

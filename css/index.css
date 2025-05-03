@@ -1,0 +1,93 @@
+
+section{
+    display: flex;
+}
+
+section .left{
+    width: 400px;
+    height: 500px;
+}
+
+section.right{
+    width: 600px;
+    height: 300px;
+}
+body{
+    background-image: url(../img/背景图.webp); 
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+    display: flex;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    backdrop-filter: blur(7px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.044);
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+
+}
+
+.user-img{
+    width: 150px;
+    border-radius: 150px;
+    transition: all 0.5s ease-out;
+
+}
+.user img{
+    width: 150px;
+    border-radius: 150px
+}
+
+.user .user-content{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: white;
+}
+
+.user:hover  .user-img {
+    transform: rotate(360deg);
+}
+
+.user:hover{
+    transform: scale(1.1); 
+}
+
+/* ---------------------------------------------- */
+
+.text{
+    width: 300px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.044);
+    backdrop-filter: blur(7px);
+    padding: 10px;
+    margin-top: 20px;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+
+}
+
+.text p{
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.text:hover{
+    transform: scale(1.1);
+}
+
+/* ----------------------- */
+
